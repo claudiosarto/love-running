@@ -394,7 +394,7 @@ hr {
 
     #benefits {
         display: flex;
-        direction: row;
+        flex-direction: row;
     }
 
     #benefits>div {

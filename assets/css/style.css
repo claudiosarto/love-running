@@ -261,6 +261,7 @@ hr {
     margin-top: 20px;
     font-size: 100%;
     padding: 15px 32px;
+
 }
 
 /* Footer */
@@ -351,6 +352,28 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+        top: 150px;
+        left: 10%;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        color: #454b1b;
+        background-color: #fafafa;
+    }
+
 
 }
 
